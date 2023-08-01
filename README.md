@@ -4,5 +4,5 @@
 
 Project Name | Description 
 ------------ | ----------- 
-[Financial Discrepancy Investigation](https://github.com/ydarrenzhang/SQL/blob/main/Financial%20Discrepancy%20Investigation) | Used SQL queries to address concerns during the period 2011-2012 on financial abnormality
+[Investigate Financial Discrepancy](Investigate Financial Discrepancy/Investigation) | Used SQL queries to address concerns during the period 2011-2012 on financial abnormality
 
