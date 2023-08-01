@@ -1,13 +1,14 @@
 /*
 Created by Darren Z. used SQLite
 07/22/23
+INTRO
 Issue of missing funds. Manager of WSDA Music, has been unable to 
 account for a discrepancy during the period 2011 to 2012 in his company’s financials
 Analyzing WSDA Music’s Data to obtain a list of suspects, then narrow that list, then pinpoint the most suspect suspect(s)
 Financial discrepancy, think about how and where money circulates in the data. What tables tables will likely contain info about people? 
 Where in the database contains transactional records, what tables?
 */
-
+----------------
 
 /*
 Look at how many transactions took place between 2011 and 2012.
@@ -48,7 +49,7 @@ FROM
 WHERE
 	InvoiceDate >= '2011-01-01' AND InvoiceDate <= '2012-12-31'
 
-
+----------------
 /*
 Now get a list of the customers who made purchases between 2011 and 2012.
 Get a list of customers, sales supports/employees, and total transaction amounts for each customer between 2011 and 2012.
@@ -129,7 +130,7 @@ FROM
 GROUP BY
 	strftime('%Y',InvoiceDate)
 	
-
+----------------
 /*
 Get list of employees exceeding average transaction based off sales generated during 2011 and 2012
 Create a column to see each employee’s commission(15% of the sales transaction)
