@@ -4,5 +4,5 @@
 
 Project Name | Description 
 ------------ | ----------- 
-[Investigate Financial Discrepancy](https://github.com/ydarrenzhang/SQL/tree/main/Investigate%20Financial%20Discrepancy)) | Used SQL queries to address concerns during the period 2011-2012 on financial abnormality
-
+[Investigate Financial Discrepancy](https://github.com/ydarrenzhang/SQL/tree/main/Investigate%20Financial%20Discrepancy) | Used SQL queries to address concerns during the period 2011-2012 on financial abnormality through SQLite DB Browser
+[Analytics on Customers and Orders](https://github.com/ydarrenzhang/SQL/tree/main/Customer%20Orders%20Analysis) | Quantifying statistics on customers and monthly sales date through querying multiple tables through database using SQLite Studio
