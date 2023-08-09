@@ -93,3 +93,7 @@ WHERE Quantity > 2
 AND Quantity <> 'Quantity Ordered'
 AND c.acctnum <> '';
 
+--Look at a list all the products sold in Los Angeles in February, and include how many of each were sold
+SELECT Product, SUM(Quantity) FROM BIT_DB.FebSales
+WHERE location LIKE '%Los Angeles%'
+GROUP BY Product;
