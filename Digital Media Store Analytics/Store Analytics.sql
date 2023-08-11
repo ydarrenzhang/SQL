@@ -1,6 +1,7 @@
 /*
 Darren Zhang
 Here I analyze data working w/ a database called chinook, chinook represents a digital media store
+Used SQLite Studio
 */
 
 --Let's take a look at customers who are not from Canada or the USA
