@@ -1,6 +1,6 @@
 # Darren Zhang's SQL Portfolio
 
-## Welcome to my SQL portfolio, this code repository provides a sample look of data analysis work I have done and includes the following:
+## Welcome, this code repository provides a sample look of SQL data analysis work I have done and includes the following:
 
 Project Name | Description 
 ------------ | ----------- 
