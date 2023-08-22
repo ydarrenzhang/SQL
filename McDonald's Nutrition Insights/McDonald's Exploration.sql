@@ -64,3 +64,20 @@ WHERE "Total Fat" <= Protein
 AND Ratio IS NOT NULL
 ORDER BY ABS(Ratio - (5.0/3.0)); --Note: reminder again, 5.0/3.0 tells SQL that this is a case of floating-point division NOT integer division: 5/3 = 1
 
+--Trans fat formation process increases the shelf life and flavor stability of foods but also creates fats that are detrimental to health
+--Let's look into top 50 options that are the highest in trans fat
+SELECT Item, "Trans Fat"
+FROM Darren_DB.McD_Nutrition
+WHERE "Trans Fat" != ''
+AND "Trans Fat" IS NOT NULL
+ORDER BY "Trans Fat" DESC
+LIMIT 50;
+
+--Now let's filter for optimal menu items based on ideal carbs to protein ratio(abs difference <= 0.20), fat < protein, and little to no trans fat <= 1. And tag these as "Optimal"
+SELECT Item, Calories, Carbs, Protein, "Total Fat", "Trans Fat", ROUND(CAST (Carbs AS FLOAT) / CAST (Protein AS FLOAT), 2) AS Ratio, 'Optimal' AS TAG
+FROM Darren_Db.McD_Nutrition
+WHERE ABS(Ratio - 5.0/3.0) <= 0.2
+AND "Trans Fat" <= 1.0
+AND "Total Fat" < Protein
+ORDER BY ABS(Ratio - 5.0/3.0);
+
