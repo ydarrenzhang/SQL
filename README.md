@@ -10,4 +10,4 @@ Project Name | Description
 [Analytics on 2021 Spotify Top 50](https://github.com/ydarrenzhang/SQL/tree/main/2021%20Spotify%20Data%20Analytics) | Creating a table and querying insights with use of CTE 
 [Digital Media Store Analystics](https://github.com/ydarrenzhang/SQL/tree/main/Digital%20Media%20Store%20Analytics) | Looked into media store performance metrics
 ------------
-For any inquires or to reach out please contact me at ydarrenzhang@gmail.com
+For any inquires please contact me at ydarrenzhang@gmail.com
